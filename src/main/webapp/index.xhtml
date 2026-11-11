@@ -13,6 +13,9 @@
 <h:body>
     <f:view>
         <header class="entete"><h1>Chat avec LangChain4j</h1><p>Camel Chafii — EMSI CASA-IA G2</p></header>
+        <h:panelGroup layout="block" styleClass="verification" rendered="#{bb.verificationLocale}">
+            Vérification locale : réponses simulées pour tester l’application. Aucun appel à Google Gemini.
+        </h:panelGroup>
 
         <!-- Les éventuels messages d'erreur non liés à un champ particulier sont affichés ici en rouge -->
         <h:messages errorStyle="color: red" showDetail="true" showSummary="false" globalOnly="true"/>

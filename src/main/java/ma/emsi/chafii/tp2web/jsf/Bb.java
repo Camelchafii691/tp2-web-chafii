@@ -87,5 +87,10 @@ public class Bb implements Serializable {
     public String getQuestion() { return question; }
     public void setQuestion(String question) { this.question = question; }
     public String getReponse() { return reponse; }
+    public boolean isVerificationLocale() {
+        String endpoint = System.getenv("GEMINI_API_ENDPOINT");
+        return endpoint != null && (endpoint.startsWith("http://127.0.0.1:")
+                || endpoint.startsWith("http://localhost:"));
+    }
     private record Echange(String question, String reponse) implements Serializable { }
 }

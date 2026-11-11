@@ -3,6 +3,7 @@ body { margin: 24px; font-family: Arial, sans-serif; color: #1f2937; background:
 .entete { margin-bottom: 24px; }
 .entete h1 { margin-bottom: 6px; font-size: 26px; }
 .entete p { margin-top: 0; color: #596579; }
+.verification { margin-bottom: 18px; padding: 12px; background: #fff2ce; border: 1px solid #dfbb52; border-radius: 5px; }
 .chat-layout { margin-top: 20px; width: 100%; border-spacing: 16px 0; table-layout: fixed; }
 .chat-layout > tbody > tr > td { width: 50%; padding: 16px; background: #fff; border: 1px solid #dce1e9; border-radius: 8px; }
 .chat-layout table { width: 100%; }
