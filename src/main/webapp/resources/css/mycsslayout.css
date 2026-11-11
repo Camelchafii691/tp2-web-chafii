@@ -1,0 +1,17 @@
+.topAligned { vertical-align: top; }
+body { margin: 24px; font-family: Arial, sans-serif; color: #1f2937; background: #f7f8fa; }
+.entete { margin-bottom: 24px; }
+.entete h1 { margin-bottom: 6px; font-size: 26px; }
+.entete p { margin-top: 0; color: #596579; }
+.chat-layout { margin-top: 20px; width: 100%; border-spacing: 16px 0; table-layout: fixed; }
+.chat-layout > tbody > tr > td { width: 50%; padding: 16px; background: #fff; border: 1px solid #dce1e9; border-radius: 8px; }
+.chat-layout table { width: 100%; }
+textarea { box-sizing: border-box; width: 100%; padding: 12px; line-height: 1.5; font-family: inherit; font-size: 15px; resize: vertical; border: 1px solid #acb6c5; border-radius: 5px; }
+textarea[readonly] { background: #f6f8fc; }
+input[type=submit], button { margin: 5px 4px 5px 0; padding: 8px 12px; cursor: pointer; }
+@media (max-width: 760px) {
+  body { margin: 12px; }
+  .chat-layout, .chat-layout > tbody, .chat-layout > tbody > tr, .chat-layout > tbody > tr > td { display: block; width: 100%; box-sizing: border-box; }
+  .chat-layout { border-spacing: 0; }
+  .chat-layout > tbody > tr > td { margin-bottom: 16px; }
+}

@@ -11,6 +11,7 @@
   </properties>
   <dependencies>
     <dependency><groupId>jakarta.platform</groupId><artifactId>jakarta.jakartaee-api</artifactId><version>11.0.0</version><scope>provided</scope></dependency>
+    <dependency><groupId>org.primefaces</groupId><artifactId>primefaces</artifactId><version>16.0.2</version></dependency>
   </dependencies>
   <build>
     <finalName>tp2-web-chafii</finalName>
